@@ -1,0 +1,1098 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneBalance - One Wallet. Every Network. All Malawi.</title>
+    <meta
+      name="description"
+      content="Malawi's first super-app that works with Airtel AND TNM. One wallet for food delivery, ride hailing, digital tickets, and sending money to anyone."
+    />
+    <meta
+      name="keywords"
+      content="Malawi mobile money, Airtel to TNM, send money Malawi, food delivery Lilongwe, taxi app Blantyre, digital tickets Malawi"
+    />
+    <meta
+      property="og:title"
+      content="OneBalance - One Wallet for All Malawi"
+    />
+    <meta
+      property="og:description"
+      content="Works with Airtel AND TNM. Food, Rides, Tickets, Send Money - One App"
+    />
+    <meta
+      property="og:image"
+      content="https://onebalance.mw/images/og-image.jpg"
+    />
+    <meta property="og:url" content="https://onebalance.mw" />
+    <link rel="icon" type="image/x-icon" href="images/wallets.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo">
+          <span class="logo-icon">💸</span>
+          <span class="logo-text"
+            >One<span class="logo-highlight">Balance</span></span
+          >
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#how-it-works" class="nav-link">How It Works</a>
+          <a href="#for-merchants" class="nav-link">For Merchants</a>
+          <a href="#security" class="nav-link">Security</a>
+          <a href="Aboutus.html" class="nav-link">About Us</a>
+          <a href="contactus.html" class="nav-link">Contact Us</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+          <a href="#download" class="nav-link cta-button">Download App</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+      </div>
+      
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Malawi’s First Truly<br />
+            <span class="highlight">Interoperable</span> Super-App.
+          </h1>
+
+          <p class="hero-subtitle">
+            Stop switching SIMs. Send money, order food, and book rides—all from one balance.
+          </p>
+
+          <div class="cta-buttons">
+            <a href="#download" class="btn btn-primary btn-large">
+              Download App
+            </a>
+            <a href="#how-it-works" class="btn btn-secondary btn-large">
+              See How It Works
+            </a>
+          </div>
+
+          <div class="app-stores">
+            <div class="store-badge">
+              <img src="images/Playstore.png" alt="Get it on Google Play" />
+            </div>
+            <div class="store-badge">
+              <img
+                src="images/apple-store.png"
+                alt="Download on the App Store"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="mockup-stack">
+            <!-- Mockup 1: Universal Wallet -->
+            <div class="phone-mockup mockup-1">
+              <div class="phone-frame">
+                <div class="phone-screen">
+                  <div class="app-interface">
+                    <div class="interface-header">
+                      <span class="wallet-icon">💳</span>
+                      <h3>Universal Wallet</h3>
+                    </div>
+                    <div class="balance-card">
+                      <div class="balance-label">Total Balance</div>
+                      <div class="balance-amount">MWK 115,250.00</div>
+                      <div class="network-split">
+                        <div class="network-item">
+                          <span class="dot airtel"></span> Airtel: K65,000
+                        </div>
+                        <div class="network-item">
+                          <span class="dot tnm"></span> TNM: K50,250
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mockup 2: Services -->
+            <div class="phone-mockup mockup-2">
+              <div class="phone-frame">
+                <div class="phone-screen">
+                  <div class="app-interface">
+                    <div class="interface-header">
+                      <span class="service-icon">⚡</span>
+                      <h3>Quick Services</h3>
+                    </div>
+                    <div class="services-grid-mini">
+                      <div class="service-mini-item">🍔<br/><span>Food</span></div>
+                      <div class="service-mini-item">🚕<br/><span>Rides</span></div>
+                      <div class="service-mini-item">🎟️<br/><span>Tickets</span></div>
+                      <div class="service-mini-item">💸<br/><span>Send</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mockup 3: Escrow History -->
+            <div class="phone-mockup mockup-3">
+              <div class="phone-frame">
+                <div class="phone-screen">
+                  <div class="app-interface">
+                    <div class="interface-header">
+                      <span class="escrow-icon">🛡️</span>
+                      <h3>Escrow History</h3>
+                    </div>
+                    <div class="transaction-list-mini">
+                      <div class="tx-mini-item">
+                        <div class="tx-info">
+                          <strong>Pizza Palace</strong>
+                          <span>Escrow Protected</span>
+                        </div>
+                        <div class="tx-status success">Active</div>
+                      </div>
+                      <div class="tx-mini-item">
+                        <div class="tx-info">
+                          <strong>Taxi Ride</strong>
+                          <span>Completed</span>
+                        </div>
+                        <div class="tx-status">Released</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating WhatsApp Button -->
+      <a
+        href="https://wa.me/+265995753146?text=Hi%20OneBalance%2C%20I%20have%20a%20question"
+        class="whatsapp-float"
+        target="_blank"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="container stats-container">
+        <div class="stat-item">
+          <div class="stat-number" data-count="50000">0</div>
+          <div class="stat-label">Active Users</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="1200">0</div>
+          <div class="stat-label">Merchant Partners</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="250">0</div>
+          <div class="stat-label">Million MWK Processed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="2">0</div>
+          <div class="stat-label">Networks Supported</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container about-container">
+        <div class="about-content">
+          <h2 class="section-title">About OneBalance <span class="arrow-icon">→</span></h2>
+          <p class="about-text">
+            OneBalance is a Malawi-based fintech super-app bridging the gap between Airtel Money and TNM Mpamba. We empower Malawians to manage their finances seamlessly across networks, all from a single interface.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Everything You Need, One App</h2>
+          <p class="section-subtitle">
+            One balance that works across all services
+          </p>
+        </div>
+
+        <div class="features-grid-minimal">
+          <!-- Feature 1 -->
+          <div class="feature-card-minimal">
+            <div class="feature-card-header">
+              <i class="fas fa-wallet"></i>
+              <h3>Universal Wallet</h3>
+            </div>
+            <p>Deposit from Airtel Money or TNM Mpamba. Send money to anyone, regardless of their network.</p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card-minimal">
+            <div class="feature-card-header">
+              <i class="fas fa-utensils"></i>
+              <h3>Food & Rides</h3>
+            </div>
+            <p>Order from your favorite restaurants or book verified rides with transparent pricing.</p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card-minimal">
+            <div class="feature-card-header">
+              <i class="fas fa-ticket-alt"></i>
+              <h3>Digital Tickets</h3>
+            </div>
+            <p>Buy tickets for shows, concerts, and sports with unique QR codes that prevent fraud.</p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card-minimal">
+            <div class="feature-card-header">
+              <i class="fas fa-shield-alt"></i>
+              <h3>Escrow Protection</h3>
+            </div>
+            <p>Your money is held safely until service is delivered. 100% safe marketplace transactions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">How It Works in 3 Simple Steps</h2>
+          <p class="section-subtitle">Get started in minutes</p>
+        </div>
+
+        <div class="steps-container">
+          <div class="step-line"></div>
+
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3 class="step-title">Download & Register</h3>
+              <p class="step-description">
+                Download the app from Play Store or App Store. Register with any
+                Malawi number (+265 99... or +265 88...). No restrictions.
+              </p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3 class="step-title">Top Up Your Wallet</h3>
+              <p class="step-description">
+                Deposit money from Airtel Money or TNM Mpamba. Your balance
+                works across all services - no need for multiple wallets.
+              </p>
+              <div class="network-bridge">
+                <span class="bridge-source airtel">Airtel Money</span>
+                <i class="fas fa-arrow-right bridge-arrow"></i>
+                <span class="bridge-destination">OneBalance Wallet</span>
+                <i class="fas fa-arrow-right bridge-arrow"></i>
+                <span class="bridge-source tnm">TNM Mpamba</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3 class="step-title">Use Any Service</h3>
+              <p class="step-description">
+                Order food, book a ride, buy tickets, or send money. One balance
+                does it all. Escrow protection ensures you only pay when
+                satisfied.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- For Merchants Section -->
+    <section id="for-merchants" class="merchants">
+      <div class="container merchants-container">
+        <div class="merchants-content">
+          <div class="section-header">
+            <h2 class="section-title">Grow Your Business With OneBalance</h2>
+            <p class="section-subtitle">
+              Join restaurants, drivers, and event organizers reaching more
+              customers
+            </p>
+          </div>
+
+          <div class="benefits-list">
+            <div class="benefit-item">
+              <i class="fas fa-check-circle benefit-icon"></i>
+              <div class="benefit-content">
+                <h4>Reach Both Networks</h4>
+                <p>Access customers using Airtel AND TNM from one platform</p>
+              </div>
+            </div>
+
+            <div class="benefit-item">
+              <i class="fas fa-check-circle benefit-icon"></i>
+              <div class="benefit-content">
+                <h4>Instant Settlement</h4>
+                <p>Get paid daily or weekly to your preferred account</p>
+              </div>
+            </div>
+
+            <div class="benefit-item">
+              <i class="fas fa-check-circle benefit-icon"></i>
+              <div class="benefit-content">
+                <h4>Zero Upfront Cost</h4>
+                <p>Only pay commission when you make a sale</p>
+              </div>
+            </div>
+
+            <div class="benefit-item">
+              <i class="fas fa-check-circle benefit-icon"></i>
+              <div class="benefit-content">
+                <h4>Free Business Tools</h4>
+                <p>Dashboard, analytics, and customer management included</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="merchant-cta">
+            <a href="#merchant-form" class="btn btn-merchant">
+              <i class="fas fa-store"></i>
+              Register Your Business
+            </a>
+            <p class="cta-note">Approval within 2-3 business days</p>
+          </div>
+        </div>
+
+        <div class="merchants-dashboard">
+          <div class="dashboard-mockup">
+            <div class="dashboard-header">
+              <h4><i class="fas fa-chart-bar"></i> Restaurant Dashboard</h4>
+              <div class="dashboard-date">Last Year, 15 Nov 2025</div>
+            </div>
+
+            <div class="dashboard-stats">
+              <div class="dashboard-stat">
+                <div class="stat-value">MWK 245,800</div>
+                <div class="stat-label">Today's Revenue</div>
+              </div>
+              <div class="dashboard-stat">
+                <div class="stat-value">147</div>
+                <div class="stat-label">Orders Today</div>
+              </div>
+            </div>
+
+            <div class="dashboard-orders">
+              <div class="order-item new">
+                <div class="order-id">#101</div>
+                <div class="order-details">
+                  <div class="order-name">2 Pizzas + Coke</div>
+                  <div class="order-amount">K125,500</div>
+                </div>
+                <div class="order-status">NEW</div>
+              </div>
+
+              <div class="order-item preparing">
+                <div class="order-id">#102</div>
+                <div class="order-details">
+                  <div class="order-name">Chicken & Rice</div>
+                  <div class="order-amount">K24,200</div>
+                </div>
+                <div class="order-status">PREPARING</div>
+              </div>
+
+              <div class="order-item delivered">
+                <div class="order-id">#103</div>
+                <div class="order-details">
+                  <div class="order-name">Burger Combo</div>
+                  <div class="order-amount">K36,500</div>
+                </div>
+                <div class="order-status">DELIVERED</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Merchant Registration Form -->
+    <section id="merchant-form" class="merchant-form-section">
+      <div class="container">
+        <div class="form-container">
+          <h3 class="form-title">Business Registration Form</h3>
+          <p class="form-subtitle">
+            Fill this form to join our merchant network
+          </p>
+
+          <form id="merchantRegistrationForm" class="merchant-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="businessName">Legal Business Name *</label>
+                <input
+                  type="text"
+                  id="businessName"
+                  name="businessName"
+                  required
+                  placeholder="e.g., Golden Crust Pizzeria"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="tradingName">Trading Name (DBA) *</label>
+                <input
+                  type="text"
+                  id="tradingName"
+                  name="tradingName"
+                  required
+                  placeholder="What customers will see"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="businessCategory">Business Category *</label>
+                <select id="businessCategory" name="businessCategory" required>
+                  <option value="">Select Category</option>
+                  <option value="restaurant">Restaurant/Food Service</option>
+                  <option value="transport">Taxi/Transport Service</option>
+                  <option value="events">Event Organizer</option>
+                  <option value="retail">Retail Store</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="city">City/Location *</label>
+                <select id="city" name="city" required>
+                  <option value="">Select City</option>
+                  <option value="lilongwe">Lilongwe</option>
+                  <option value="blantyre">Blantyre</option>
+                  <option value="mzuzu">Mzuzu</option>
+                  <option value="zomba">Zomba</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="phoneNumber">Contact Phone Number *</label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                name="phoneNumber"
+                required
+                placeholder="+265888911806"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="contact@yourbusiness.mw"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>How do you want to receive payments? *</label>
+              <div class="payment-options">
+                <label class="option-label">
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="bank"
+                    required
+                  />
+                  <span>Bank Transfer</span>
+                </label>
+                <label class="option-label">
+                  <input type="radio" name="paymentMethod" value="airtel" />
+                  <span>Airtel Money</span>
+                </label>
+                <label class="option-label">
+                  <input type="radio" name="paymentMethod" value="tnm" />
+                  <span>TNM Mpamba</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Additional Information</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us about your business, special requirements, etc."
+              ></textarea>
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i>
+                Submit Application
+              </button>
+              <p class="form-note">
+                <i class="fas fa-info-circle"></i>
+                Our team will contact you within 48 hours
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Security Section -->
+    <section id="security" class="security">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Built on Trust</h2>
+          <p class="section-subtitle">
+            Your money is protected by Malawi's financial regulations and bank-grade security.
+          </p>
+        </div>
+
+        <div class="trust-grid">
+          <div class="trust-card">
+            <div class="trust-icon">
+              <i class="fas fa-university"></i>
+            </div>
+            <h3>RBM Licensed</h3>
+            <p>
+              Fully compliant with Reserve Bank of Malawi's Payment Systems Act and E-Money Regulations.
+            </p>
+          </div>
+
+          <div class="trust-card">
+            <div class="trust-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Trust Account</h3>
+            <p>
+              All customer funds held in a dedicated trust account at National Bank of Malawi.
+            </p>
+          </div>
+
+          <div class="trust-card">
+            <div class="trust-icon">
+              <i class="fas fa-lock"></i>
+            </div>
+            <h3>AES-256 Security</h3>
+            <p>We use bank-grade encryption and two-factor authentication for every transaction.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What Our Users Say</h2>
+          <p class="section-subtitle">Real stories from real Malawians</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                "Finally! I can send money to my sister on TNM without borrowing
+                a phone. This app solves a real problem in Malawi."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">C</div>
+              <div class="author-info">
+                <h4>Chikondi M.</h4>
+                <p>Lilongwe • Regular User</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                "My restaurant sales increased 40% after joining OneBalance. Now
+                I can accept payments from both networks easily."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">B</div>
+              <div class="author-info">
+                <h4>Mr. Banda</h4>
+                <p>Restaurant Owner • Blantyre</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>
+                "As a student, I love buying concert tickets without fear of
+                scams. The QR code system is genius!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">T</div>
+              <div class="author-info">
+                <h4>Tawonga</h4>
+                <p>University Student • Zomba</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Everything you need to know about OneBalance
+          </p>
+        </div>
+
+        <div class="faq-container">
+          <!-- FAQ Item 1 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Does it really work with both Airtel and TNM?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes! We're the first app in Malawi with true interoperability.
+                You can:
+              </p>
+              <ul>
+                <li>Deposit from either Airtel Money or TNM Mpamba</li>
+                <li>Send money to any Malawi number, regardless of network</li>
+                <li>Use one balance across all services</li>
+                <li>Withdraw to your preferred network</li>
+                <br />
+              </ul>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How do I get my money out of the app?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Withdrawing is simple:</p>
+              <ol>
+                <li>Go to "Wallet" section in the app</li>
+                <li>Select "Withdraw"</li>
+                <li>Choose destination (Airtel Money or TNM Mpamba)</li>
+                <li>Enter amount and PIN</li>
+                <li>Money arrives within minutes</li>
+                <br />
+              </ol>
+              <p>
+                <strong>Note:</strong> A small 1% fee applies (capped by RBM
+                regulations)
+              </p>
+              <br />
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What if my food doesn't arrive or service is bad?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>We use escrow protection for all marketplace transactions:</p>
+              <ul>
+                <li>Your payment is held securely when you order</li>
+                <li>
+                  The merchant only receives payment when you click "Received"
+                </li>
+                <li>
+                  If food doesn't arrive within estimated time, you can cancel
+                  for full refund
+                </li>
+                <li>
+                  For quality issues, contact support within 1 hour for
+                  resolution
+                </li>
+                <br />
+              </ul>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How do I become a driver or restaurant partner?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Business registration is simple:</p>
+              <ol>
+                <li>Fill the merchant form on our website</li>
+                <li>Our team will contact you within 48 hours</li>
+                <li>
+                  Submit required documents (business registration, ID, etc.)
+                </li>
+                <li>Complete brief training on merchant app</li>
+                <li>Get activated and start receiving orders!</li>
+                <br />
+              </ol>
+              <p>
+                <strong>Documents needed:</strong> Business certificate, TPIN,
+                National ID, proof of address
+              </p>
+              <br />
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Is my money safe with OneBalance?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. We follow strict RBM regulations:</p>
+              <ul>
+                <li>
+                  <strong>Trust Account:</strong> All customer funds are held in
+                  a separate trust account at National Bank
+                </li>
+                <li>
+                  <strong>RBM Licensed:</strong> We're fully licensed as a
+                  Payment Service Provider
+                </li>
+                <li>
+                  <strong>Encryption:</strong> Bank-grade AES-256 encryption for
+                  all data
+                </li>
+                <li>
+                  <strong>2FA:</strong> Two-factor authentication for
+                  transactions
+                </li>
+                <li>
+                  <strong>Regular Audits:</strong> External security audits
+                  every 6 months
+                </li>
+                <br />
+              </ul>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What cities do you operate in?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>We're currently available in:</p>
+              <div class="cities-grid">
+                <span class="city-tag active">Lilongwe</span>
+                <span class="city-tag active">Blantyre</span>
+                <span class="city-tag active">Zomba</span>
+                <span class="city-tag">Mzuzu (Coming Soon)</span>
+                <span class="city-tag">Salima (Coming Soon)</span>
+                <span class="city-tag">Mangochi (Coming Soon)</span>
+              </div>
+              <p>
+                We're expanding rapidly! Sign up for our newsletter to know when
+                we launch in your city.
+              </p>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container newsletter-container">
+        <div class="newsletter-content">
+          <h3>Coming Soon to Your City!</h3>
+          <p>Sign up to be notified when we launch in your area</p>
+        </div>
+
+        <form id="newsletterForm" class="newsletter-form">
+          <div class="input-group">
+            <input type="email" placeholder="Your email address" required />
+            <select required>
+              <option value="">Select City</option>
+              <option value="lilongwe">Lilongwe</option>
+              <option value="blantyre">Blantyre</option>
+              <option value="mzuzu">Mzuzu</option>
+              <option value="zomba">Zomba</option>
+              <option value="other">Other</option>
+            </select>
+            <button type="submit" class="btn btn-newsletter">
+              <i class="fas fa-bell"></i>
+              Notify Me
+            </button>
+          </div>
+          <p class="privacy-note">
+            <i class="fas fa-lock"></i>
+            We respect your privacy. No spam, unsubscribe anytime.
+          </p>
+          <br />
+        </form>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="download" class="final-cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Simplify Your Life?</h2>
+          <p>Join thousands of Malawians using OneBalance every day</p>
+
+          <div class="cta-buttons">
+            <a href="#" class="btn btn-primary btn-large">
+              <i class="fas fa-download"></i>
+              Download App Now
+            </a>
+            <a href="#merchant-form" class="btn btn-secondary btn-large">
+              <i class="fas fa-store"></i>
+              Register Your Business
+            </a>
+          </div>
+
+          <div class="app-stores-final">
+            <div class="store-badge">
+              <img src="images/Playstore.png" alt="Get it on Google Play" />
+            </div>
+            <div class="store-badge">
+              <img
+                src="images/apple-store.png"
+                alt="Download on the App Store"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent" class="cookie-consent" style="display: none">
+      <div class="cookie-content">
+        <div class="cookie-icon">🍪</div>
+        <div class="cookie-text">
+          <h4>We value your privacy</h4>
+          <p>
+            We use cookies to enhance your browsing experience, serve
+            personalized content, and analyze our traffic. By clicking "Accept
+            All", you consent to our use of cookies.
+          </p>
+        </div>
+        <div class="cookie-buttons">
+          <button class="btn btn-primary" onclick="acceptCookies('all')">
+            Accept All
+          </button>
+          <button class="btn btn-outline" onclick="acceptCookies('necessary')">
+            Necessary Only
+          </button>
+          <button class="btn btn-link" onclick="openCookieSettings()">
+            Customize
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cookie Settings Modal -->
+    <div id="cookie-settings" class="modal" style="display: none">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Cookie Preferences</h3>
+          <button class="close" onclick="closeCookieSettings()">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="cookie-option">
+            <div class="option-header">
+              <h4>Essential Cookies</h4>
+              <label class="switch">
+                <input type="checkbox" checked disabled />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <p>Required for basic site functionality. Cannot be disabled.</p>
+          </div>
+
+          <div class="cookie-option">
+            <div class="option-header">
+              <h4>Analytics Cookies</h4>
+              <label class="switch">
+                <input type="checkbox" id="analytics-cookies" />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <p>
+              Help us improve our website by collecting anonymous usage data.
+            </p>
+          </div>
+
+          <div class="cookie-option">
+            <div class="option-header">
+              <h4>Marketing Cookies</h4>
+              <label class="switch">
+                <input type="checkbox" id="marketing-cookies" />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <p>Used to deliver personalized advertisements.</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" onclick="saveCookiePreferences()">
+            Save Preferences
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Column 1 -->
+          <div class="footer-col">
+            <a href="#" class="footer-logo">
+              <span class="logo-icon">💸</span>
+              <span class="logo-text"
+                >One<span class="logo-highlight">Balance</span></span
+              >
+            </a>
+            <p class="footer-tagline">One Wallet. Every Network. All Malawi.</p>
+
+            <div class="footer-social">
+              <a href="#" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="footer-col">
+            <h4>For Users</h4>
+            <ul class="footer-links">
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#download">Download App</a></li>
+              <li><a href="#security">Safety & Security</a></li>
+              <li><a href="#faq">Help Center</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="footer-col">
+            <h4>For Businesses</h4>
+            <ul class="footer-links">
+              <li><a href="#for-merchants">Partner With Us</a></li>
+              <li><a href="#merchant-form">Register Business</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul class="footer-links">
+              <li><a href="Aboutus.html">About Us</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 5 -->
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul class="footer-links">
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">RBM Compliance</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <p>
+              <i class="fas fa-university"></i>
+              Licensed by Reserve Bank of Malawi • Payment Service Provider
+              License No: PSP/2026/001
+            </p>
+            <p>
+              <i class="fas fa-shield-alt"></i>
+              All funds held in trust at National Bank of Malawi • Member funds
+              protected
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              Headquarters: Area 47, Lilongwe, Malawi • +265 1 234 567 •
+              hello@onebalance.mw
+            </p>
+          </div>
+
+          <div class="copyright">
+            <p>&copy; 2026 OneBalance Malawi. All rights reserved.</p>
+            <p class="footer-note">
+              OneBalance is a trademark of OneBalance Digital Solutions Ltd.
+              Airtel and Airtel Money are trademarks of Airtel Malawi. TNM and
+              Mpamba are trademarks of Telekom Networks Malawi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
