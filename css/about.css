@@ -16,7 +16,7 @@
 
 .about-hero-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Equal split for a more balanced, expansive look */
+    grid-template-columns: 1fr 1fr; 
     gap: var(--spacing-3xl);
     align-items: center;
     position: relative;

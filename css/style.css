@@ -415,6 +415,7 @@ p {
 
 .btn-secondary {
     background: white;
+    background-color: var(--success);
     color: var(--dark);
 }
 
@@ -491,7 +492,7 @@ p {
 }
 
 .nav-link.cta-button {
-    background: var(--dark);
+    background: var(--accent-green);
     color: var(--white);
     padding: 0.6rem 1.2rem;
     border-radius: var(--radius-full);
@@ -804,7 +805,7 @@ p {
 
 /* Stats Section */
 .stats {
-    background: var(--dark);
+    background: var(--gray-light);
     color: var(--white);
     padding: var(--spacing-2xl) 0;
 }
@@ -828,7 +829,7 @@ p {
 
 .stat-label {
     font-size: var(--font-size-sm);
-    color: rgba(255,255,255,0.6);
+    color: var(--dark);
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -1081,7 +1082,7 @@ p {
 
 .dashboard-date {
     font-size: var(--font-size-sm);
-    color: var(--gray-light);
+    color: var(--dark);
 }
 
 .dashboard-stats {
@@ -1115,7 +1116,7 @@ p {
 
 .stat-label {
     font-size: var(--font-size-sm);
-    color: var(--gray-light);
+    color: var(--dark);
 }
 
 .dashboard-orders {
@@ -1135,7 +1136,7 @@ p {
 
 .order-id {
     font-weight: 600;
-    color: var(--gray-light);
+    color: var(--dark);
 }
 
 .order-details {
@@ -1524,6 +1525,8 @@ p {
 .privacy-note {
     font-size: var(--font-size-sm);
     opacity: 0.8;
+    color: var(--white);
+    font-size: medium;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1546,7 +1549,7 @@ p {
 
 .cta-content p {
     font-size: var(--font-size-xl);
-    color: var(--gray-light);
+    color: var(--dark);
     margin-bottom: var(--spacing-2xl);
 }
 
