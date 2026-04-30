@@ -441,6 +441,7 @@ p {
     left: 0;
     right: 0;
     background: rgba(253, 253, 253, 0.8);
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     z-index: 1000;
     padding: var(--spacing-md) 0;
