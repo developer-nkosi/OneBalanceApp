@@ -14,15 +14,6 @@
     background-color: var(--bg-light);
 }
 
-/* .about-hero-container {
-    display: grid;
-    grid-template-columns: 4fr 2fr;
-    gap: var(--spacing-3xl);
-    align-items: center;
-    position: relative;
-    z-index: 1;
-} */
-
 .about-hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Equal split for a more balanced, expansive look */
@@ -30,7 +21,7 @@
     align-items: center;
     position: relative;
     z-index: 1;
-    max-width: 1400px; /* Increased max-width to use more of the screen */
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 var(--spacing-xl);
 }
@@ -462,8 +453,9 @@
     background: var(--dark);
     color: var(--white);
     text-align: center;
-    margin: 10px;
-    border-radius: 5px;
+    margin: 0 auto;
+    border-radius: 0;
+    width: 100%;
 }
 
 .cta-section h2 {
