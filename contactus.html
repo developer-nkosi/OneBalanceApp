@@ -18,22 +18,15 @@
     <!-- Navigation -->
     <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="container nav-container">
-            <a href="../index.html" class="logo" aria-label="OneBalance Home">
+            <a href="index.html" class="logo" aria-label="OneBalance Home">
                 <span class="logo-icon" aria-hidden="true">💸</span>
                 <span class="logo-text">One<span class="logo-highlight">Balance</span></span>
             </a>
-            
-            <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            
             <div class="nav-menu" id="nav-menu" role="navigation">
-                <a href="../index.html" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
                 <a href="Aboutus.html" class="nav-link">About Us</a>
-                <a href="contactus.html" class="nav-link active" aria-current="page">Contact</a>
-                <a href="../index.html#download" class="nav-link cta-button">Get Help</a>
+                <a href="contactus.html" class="nav-link active" aria-current="page">Contact Us</a>
+                <a href="index.html#download" class="nav-link cta-button">Download App</a>
             </div>
         </div>
     </nav>
@@ -42,485 +35,279 @@
     <main class="contact-container">
         <!-- Hero Section -->
         <section class="contact-hero" aria-labelledby="hero-title">
+            <div class="hero-blobs">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+            </div>
             <h1 id="hero-title">Get in Touch with OneBalance</h1>
             <p class="lead">We're here to help! Whether you need customer support, want to partner with us, or have business inquiries, our team is ready to assist you.</p>
         </section>
 
         <!-- Contact Options Grid -->
-        <section class="contact-grid" aria-labelledby="options-title">
+        <section class="contact-grid-minimal" aria-labelledby="options-title">
             <h2 id="options-title" class="sr-only">Contact Options</h2>
 
             <!-- Customer Support -->
-            <article class="contact-card" aria-labelledby="support-title">
-                <div class="contact-icon support-icon" aria-hidden="true">💬</div>
-                <h3 id="support-title">Customer Support</h3>
-                <p class="text-muted">Get help with your account, transactions, or app issues.</p>
-
-                <div class="contact-details">
-                    <p><strong>WhatsApp:</strong> +265 99 123 4567</p>
-                    <p><strong>Phone:</strong> +265 1 234 567</p>
-                    <p><strong>Email:</strong> <a href="mailto:support@onebalance.mw">support@onebalance.mw</a></p>
-                    <p><strong>Hours:</strong> 24/7 Support</p>
+            <article class="contact-card-minimal">
+                <div class="contact-icon">💬</div>
+                <h3>Customer Support</h3>
+                <p>Get help with your account, transactions, or app issues. 24/7 Support.</p>
+                <div class="contact-details-mini">
+                    <p><strong>WhatsApp:</strong> +265 99 575 3146</p>
+                    <p><strong>Email:</strong> support@onebalance.mw</p>
                 </div>
-
-                <a href="#support-form" class="btn btn-primary">Get Support</a>
             </article>
 
             <!-- Business Inquiries -->
-            <article class="contact-card" aria-labelledby="business-title">
-                <div class="contact-icon business-icon" aria-hidden="true">💼</div>
-                <h3 id="business-title">Business & Partnerships</h3>
-                <p class="text-muted">For merchant onboarding, corporate accounts, and partnerships.</p>
-
-                <div class="contact-details">
-                    <p><strong>Phone:</strong> +265 1 234 568</p>
-                    <p><strong>Email:</strong> <a href="mailto:business@onebalance.mw">business@onebalance.mw</a></p>
-                    <p><strong>Partnerships:</strong> <a href="mailto:partners@onebalance.mw">partners@onebalance.mw</a></p>
+            <article class="contact-card-minimal">
+                <div class="contact-icon">💼</div>
+                <h3>Business & Partnerships</h3>
+                <p>For merchant onboarding, corporate accounts, and partnerships.</p>
+                <div class="contact-details-mini">
+                    <p><strong>Email:</strong> business@onebalance.mw</p>
                     <p><strong>Hours:</strong> Mon-Fri, 8AM-5PM</p>
                 </div>
-
-                <a href="#business-form" class="btn btn-primary">Business Inquiry</a>
             </article>
 
             <!-- Compliance -->
-            <article class="contact-card" aria-labelledby="compliance-title">
-                <div class="contact-icon compliance-icon" aria-hidden="true">⚖️</div>
-                <h3 id="compliance-title">Compliance & Legal</h3>
-                <p class="text-muted">For regulatory inquiries, legal matters, and compliance issues.</p>
-
-                <div class="contact-details">
-                    <p><strong>Phone:</strong> +265 1 234 569</p>
-                    <p><strong>Email:</strong> <a href="mailto:compliance@onebalance.mw">compliance@onebalance.mw</a></p>
-                    <p><strong>Legal:</strong> <a href="mailto:legal@onebalance.mw">legal@onebalance.mw</a></p>
-                    <p><strong>Hours:</strong> Mon-Fri, 9AM-4PM</p>
+            <article class="contact-card-minimal">
+                <div class="contact-icon">⚖️</div>
+                <h3>Compliance & Legal</h3>
+                <p>For regulatory inquiries, legal matters, and compliance issues.</p>
+                <div class="contact-details-mini">
+                    <p><strong>Email:</strong> compliance@onebalance.mw</p>
                 </div>
-
-                <a href="#compliance-form" class="btn btn-primary">Contact Compliance</a>
             </article>
 
             <!-- Press & Media -->
-            <article class="contact-card" aria-labelledby="press-title">
-                <div class="contact-icon partnership-icon" aria-hidden="true">📰</div>
-                <h3 id="press-title">Press & Media</h3>
-                <p class="text-muted">For media inquiries, press releases, and interview requests.</p>
-
-                <div class="contact-details">
-                    <p><strong>Phone:</strong> +265 1 234 570</p>
-                    <p><strong>Email:</strong> <a href="mailto:press@onebalance.mw">press@onebalance.mw</a></p>
-                    <p><strong>Media Kit:</strong> <a href="/assets/media-kit.pdf" download>Download</a></p>
-                    <p><strong>Hours:</strong> Mon-Fri, 9AM-5PM</p>
+            <article class="contact-card-minimal">
+                <div class="contact-icon">📰</div>
+                <h3>Press & Media</h3>
+                <p>For media inquiries, press releases, and interview requests.</p>
+                <div class="contact-details-mini">
+                    <p><strong>Email:</strong> press@onebalance.mw</p>
                 </div>
-
-                <a href="#media-form" class="btn btn-primary">Media Inquiry</a>
             </article>
         </section>
 
         <!-- Response Time Guarantee -->
-        <section class="response-time" aria-labelledby="response-title">
-            <h3 id="response-title">Our Response Time Guarantee</h3>
-            <p>We're committed to getting back to you quickly. Here's what you can expect:</p>
+        <section class="response-time">
+            <div class="container">
+              <h3>Our Response Time Guarantee</h3>
+              <p>We're committed to getting back to you quickly.</p>
 
-            <div class="response-grid">
-                <div class="response-card">
-                    <h4>WhatsApp Support</h4>
-                    <p><strong>Within 5 minutes</strong><br>24/7 availability</p>
-                </div>
+              <div class="response-grid">
+                  <div class="response-card">
+                      <h4>WhatsApp Support</h4>
+                      <p><strong>Within 5 minutes</strong><br>24/7 availability</p>
+                  </div>
 
-                <div class="response-card">
-                    <h4>Email Support</h4>
-                    <p><strong>Within 2 hours</strong><br>During business hours</p>
-                </div>
+                  <div class="response-card">
+                      <h4>Email Support</h4>
+                      <p><strong>Within 2 hours</strong><br>During business hours</p>
+                  </div>
 
-                <div class="response-card">
-                    <h4>Phone Support</h4>
-                    <p><strong>Immediate</strong><br>No wait times</p>
-                </div>
+                  <div class="response-card">
+                      <h4>Phone Support</h4>
+                      <p><strong>Immediate</strong><br>No wait times</p>
+                  </div>
 
-                <div class="response-card">
-                    <h4>Business Inquiries</h4>
-                    <p><strong>Within 24 hours</strong><br>Detailed response</p>
-                </div>
+                  <div class="response-card">
+                      <h4>Business Inquiries</h4>
+                      <p><strong>Within 24 hours</strong><br>Detailed response</p>
+                  </div>
+              </div>
             </div>
         </section>
 
         <!-- Contact Forms -->
-        <section class="contact-form-container" aria-labelledby="forms-title">
-            <h2 id="forms-title">Send Us a Message</h2>
-            <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+        <section class="contact-form-container">
+            <div class="container">
+              <h2 id="forms-title">Send Us a Message</h2>
+              <p>Fill out the form below and we'll get back to you as soon as possible.</p>
 
-            <!-- Form Tabs -->
-            <div class="form-tabs" role="tablist" aria-label="Form types">
-                <button class="form-tab active" onclick="switchTab('support')" id="tab-support" role="tab" aria-selected="true" aria-controls="support-form">Customer Support</button>
-                <button class="form-tab" onclick="switchTab('business')" id="tab-business" role="tab" aria-selected="false" aria-controls="business-form">Business Inquiry</button>
-                <button class="form-tab" onclick="switchTab('compliance')" id="tab-compliance" role="tab" aria-selected="false" aria-controls="compliance-form">Compliance</button>
-                <button class="form-tab" onclick="switchTab('media')" id="tab-media" role="tab" aria-selected="false" aria-controls="media-form">Press & Media</button>
-            </div>
+              <!-- Form Tabs -->
+              <div class="form-tabs" role="tablist">
+                  <button class="form-tab active" onclick="switchTab('support')" id="tab-support" role="tab" aria-selected="true">Customer Support</button>
+                  <button class="form-tab" onclick="switchTab('business')" id="tab-business" role="tab" aria-selected="false">Business Inquiry</button>
+                  <button class="form-tab" onclick="switchTab('compliance')" id="tab-compliance" role="tab" aria-selected="false">Compliance</button>
+                  <button class="form-tab" onclick="switchTab('media')" id="tab-media" role="tab" aria-selected="false">Press & Media</button>
+              </div>
 
-            <!-- Support Form -->
-            <form id="support-form" class="form-tab-content active" role="form" aria-labelledby="support-form-title" data-form-type="support">
-                <h3 id="support-form-title" class="sr-only">Customer Support Form</h3>
+              <!-- Support Form -->
+              <form id="support-form" class="form-tab-content active" role="form" data-form-type="support">
+                  <div class="form-row">
+                      <div class="form-group">
+                          <label for="support-name">Full Name *</label>
+                          <input type="text" id="support-name" name="name" class="form-control" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="support-phone">Phone Number *</label>
+                          <input type="tel" id="support-phone" name="phone" class="form-control" required placeholder="+265 99 ...">
+                      </div>
+                  </div>
 
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="support-name">Full Name *</label>
-                        <input type="text" id="support-name" name="name" class="form-control" required aria-required="true">
-                    </div>
-                    <div class="form-group">
-                        <label for="support-phone">Phone Number *</label>
-                        <input type="tel" id="support-phone" name="phone" class="form-control" required aria-required="true" placeholder="+265 99 123 4567">
-                    </div>
-                </div>
+                  <div class="form-group">
+                      <label for="support-email">Email Address *</label>
+                      <input type="email" id="support-email" name="email" class="form-control" required>
+                  </div>
 
-                <div class="form-group">
-                    <label for="support-email">Email Address *</label>
-                    <input type="email" id="support-email" name="email" class="form-control" required aria-required="true">
-                </div>
+                  <div class="form-group">
+                      <label for="support-message">Describe your issue *</label>
+                      <textarea id="support-message" name="message" class="form-control" required rows="4"></textarea>
+                  </div>
 
-                <div class="form-group">
-                    <label for="support-type">Issue Type *</label>
-                    <select id="support-type" name="issue-type" class="form-control" required aria-required="true">
-                        <option value="">Select issue type</option>
-                        <option value="transaction">Transaction Issue</option>
-                        <option value="account">Account Problem</option>
-                        <option value="app">App Bug/Error</option>
-                        <option value="security">Security Concern</option>
-                        <option value="refund">Refund Request</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
+                  <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Submit Request</button>
+                  </div>
+              </form>
 
-                <div class="form-group">
-                    <label for="support-message">Describe your issue *</label>
-                    <textarea id="support-message" name="message" class="form-control" required aria-required="true" placeholder="Please provide details about your issue..."></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="support-reference">Transaction Reference (if applicable)</label>
-                    <input type="text" id="support-reference" name="reference" class="form-control" placeholder="OB-XXXX-XXXX">
-                </div>
-
-                <button type="submit" class="btn btn-primary btn-lg">Submit Support Request</button>
-            </form>
-
-            <!-- Business Form -->
-            <form id="business-form" class="form-tab-content" role="form" aria-labelledby="business-form-title" data-form-type="business">
-                <h3 id="business-form-title" class="sr-only">Business Inquiry Form</h3>
-
+              <!-- Business Form -->
+              <form id="business-form" class="form-tab-content" role="form" data-form-type="business">
                 <div class="form-row">
                     <div class="form-group">
                         <label for="business-name">Company Name *</label>
-                        <input type="text" id="business-name" name="company" class="form-control" required aria-required="true">
+                        <input type="text" id="business-name" name="company" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="business-contact">Contact Person *</label>
-                        <input type="text" id="business-contact" name="contact" class="form-control" required aria-required="true">
+                        <input type="text" id="business-contact" name="contact" class="form-control" required>
                     </div>
                 </div>
-
                 <div class="form-group">
-                    <label for="business-type">Business Type *</label>
-                    <select id="business-type" name="business-type" class="form-control" required aria-required="true">
-                        <option value="">Select business type</option>
-                        <option value="merchant">Merchant Partnership</option>
-                        <option value="corporate">Corporate Account</option>
-                        <option value="api">API Integration</option>
-                        <option value="bulk">Bulk Payments</option>
-                        <option value="other">Other</option>
-                    </select>
+                    <label for="business-email">Business Email *</label>
+                    <input type="email" id="business-email" name="email" class="form-control" required>
                 </div>
-
                 <div class="form-group">
-                    <label for="business-message">Describe your inquiry *</label>
-                    <textarea id="business-message" name="message" class="form-control" required aria-required="true" rows="4" placeholder="Tell us about your business needs..."></textarea>
+                    <label for="business-message">Tell us about your needs *</label>
+                    <textarea id="business-message" name="message" class="form-control" required rows="4"></textarea>
                 </div>
-
-                <button type="submit" class="btn btn-primary btn-lg">Submit Business Inquiry</button>
-            </form>
-
-            <!-- Compliance Form -->
-            <form id="compliance-form" class="form-tab-content" role="form" aria-labelledby="compliance-form-title" data-form-type="compliance">
-                <h3 id="compliance-form-title" class="sr-only">Compliance Inquiry Form</h3>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="compliance-name">Full Name *</label>
-                        <input type="text" id="compliance-name" name="name" class="form-control" required aria-required="true">
-                    </div>
-                    <div class="form-group">
-                        <label for="compliance-org">Organization</label>
-                        <input type="text" id="compliance-org" name="organization" class="form-control">
-                    </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary">Submit Inquiry</button>
                 </div>
+              </form>
 
+              <!-- Compliance Form -->
+              <form id="compliance-form" class="form-tab-content" role="form" data-form-type="compliance">
+                <div class="form-group">
+                    <label for="compliance-name">Full Name *</label>
+                    <input type="text" id="compliance-name" name="name" class="form-control" required>
+                </div>
                 <div class="form-group">
                     <label for="compliance-email">Email Address *</label>
-                    <input type="email" id="compliance-email" name="email" class="form-control" required aria-required="true">
+                    <input type="email" id="compliance-email" name="email" class="form-control" required>
                 </div>
-
                 <div class="form-group">
                     <label for="compliance-subject">Subject *</label>
-                    <select id="compliance-subject" name="subject" class="form-control" required aria-required="true">
-                        <option value="">Select subject</option>
-                        <option value="aml">AML/KYC Inquiry</option>
-                        <option value="regulatory">Regulatory Compliance</option>
-                        <option value="audit">Audit Request</option>
+                    <select id="compliance-subject" name="subject" class="form-control" required>
+                        <option value="regulatory">Regulatory Inquiry</option>
                         <option value="legal">Legal Matter</option>
-                        <option value="fraud">Fraud Investigation</option>
-                        <option value="other">Other</option>
+                        <option value="aml">AML/KYC Concern</option>
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="compliance-message">Details *</label>
-                    <textarea id="compliance-message" name="message" class="form-control" required aria-required="true" rows="4" placeholder="Please provide details..."></textarea>
+                    <textarea id="compliance-message" name="message" class="form-control" required rows="4"></textarea>
                 </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary">Submit to Compliance</button>
+                </div>
+              </form>
 
-                <button type="submit" class="btn btn-primary btn-lg">Submit Compliance Inquiry</button>
-            </form>
-
-            <!-- Media Form -->
-            <form id="media-form" class="form-tab-content" role="form" aria-labelledby="media-form-title" data-form-type="media">
-                <h3 id="media-form-title" class="sr-only">Media Inquiry Form</h3>
-
+              <!-- Media Form -->
+              <form id="media-form" class="form-tab-content" role="form" data-form-type="media">
                 <div class="form-row">
                     <div class="form-group">
                         <label for="media-name">Name *</label>
-                        <input type="text" id="media-name" name="name" class="form-control" required aria-required="true">
+                        <input type="text" id="media-name" name="name" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="media-outlet">Media Outlet *</label>
-                        <input type="text" id="media-outlet" name="outlet" class="form-control" required aria-required="true">
+                        <input type="text" id="media-outlet" name="outlet" class="form-control" required>
                     </div>
                 </div>
-
                 <div class="form-group">
                     <label for="media-email">Email Address *</label>
-                    <input type="email" id="media-email" name="email" class="form-control" required aria-required="true">
+                    <input type="email" id="media-email" name="email" class="form-control" required>
                 </div>
-
                 <div class="form-group">
-                    <label for="media-deadline">Deadline (if applicable)</label>
-                    <input type="date" id="media-deadline" name="deadline" class="form-control">
+                    <label for="media-request">Request Details *</label>
+                    <textarea id="media-request" name="request" class="form-control" required rows="4"></textarea>
                 </div>
-
-                <div class="form-group">
-                    <label for="media-request">Media Request *</label>
-                    <textarea id="media-request" name="request" class="form-control" required aria-required="true" rows="4" placeholder="Interview request, press release, etc..."></textarea>
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary">Submit Media Request</button>
                 </div>
-
-                <button type="submit" class="btn btn-primary btn-lg">Submit Media Inquiry</button>
-            </form>
+              </form>
+            </div>
         </section>
 
         <!-- Office Locations -->
-        <section class="office-section" aria-labelledby="offices-title">
-            <h2 id="offices-title">Visit Our Offices</h2>
-            <div class="office-locations">
-                <!-- Lilongwe Office -->
-                <article class="office-card">
-                    <div class="office-header">
-                        <h3>Headquarters - Lilongwe</h3>
-                        <p>Area 47, City Center</p>
-                    </div>
-                    <div class="office-body">
-                        <div class="office-info">
-                            <i aria-hidden="true">📍</i>
-                            <div>
-                                <strong>Address</strong>
-                                <br>OneBalance House, Area 47
-                                <br>Lilongwe, Malawi
-                            </div>
-                        </div>
+        <section class="office-section">
+            <div class="container">
+              <h2>Visit Our Offices</h2>
+              <div class="office-locations">
+                  <article class="office-card">
+                      <div class="office-header">
+                          <h3>Headquarters - Lilongwe</h3>
+                          <p>Area 47, City Center</p>
+                      </div>
+                      <div class="office-body">
+                          <div class="office-info">📍 <span>OneBalance House, Area 47, Lilongwe</span></div>
+                          <div class="office-info">📞 <span>+265 1 234 567</span></div>
+                          <div class="office-info">✉️ <span>lilongwe@onebalance.mw</span></div>
+                      </div>
+                  </article>
 
-                        <div class="office-info">
-                            <i aria-hidden="true">📞</i>
-                            <div>
-                                <strong>Phone</strong>
-                                <br><a href="tel:+2651234567">+265 1 234 567</a>
-                            </div>
-                        </div>
-
-                        <div class="office-info">
-                            <i aria-hidden="true">✉️</i>
-                            <div>
-                                <strong>Email</strong>
-                                <br><a href="mailto:lilongwe@onebalance.mw">lilongwe@onebalance.mw</a>
-                            </div>
-                        </div>
-
-                        <div class="office-info">
-                            <i aria-hidden="true">🕒</i>
-                            <div>
-                                <strong>Business Hours</strong>
-                                <br>Monday - Friday: 8:00 AM - 5:00 PM
-                                <br>Saturday: 9:00 AM - 1:00 PM
-                                <br>Sunday: Closed
-                            </div>
-                        </div>
-
-                        <div class="office-actions">
-                            <a href="https://maps.google.com/?q=OneBalance+House+Area+47+Lilongwe" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">📍 Get Directions</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Blantyre Office -->
-                <article class="office-card">
-                    <div class="office-header">
-                        <h3>Blantyre Office</h3>
-                        <p>Victoria Avenue</p>
-                    </div>
-                    <div class="office-body">
-                        <div class="office-info">
-                            <i aria-hidden="true">📍</i>
-                            <div>
-                                <strong>Address</strong>
-                                <br>Victoria Avenue, Plot 123
-                                <br>Blantyre, Malawi
-                            </div>
-                        </div>
-
-                        <div class="office-info">
-                            <i aria-hidden="true">📞</i>
-                            <div>
-                                <strong>Phone</strong>
-                                <br><a href="tel:+2651987654">+265 1 987 654</a>
-                            </div>
-                        </div>
-
-                        <div class="office-info">
-                            <i aria-hidden="true">✉️</i>
-                            <div>
-                                <strong>Email</strong>
-                                <br><a href="mailto:blantyre@onebalance.mw">blantyre@onebalance.mw</a>
-                            </div>
-                        </div>
-
-                        <div class="office-info">
-                            <i aria-hidden="true">🕒</i>
-                            <div>
-                                <strong>Business Hours</strong>
-                                <br>Monday - Friday: 8:00 AM - 5:00 PM
-                                <br>Saturday: Closed
-                                <br>Sunday: Closed
-                            </div>
-                        </div>
-
-                        <div class="office-actions">
-                            <a href="https://maps.google.com/?q=Victoria+Avenue+Blantyre" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">📍 Get Directions</a>
-                        </div>
-                    </div>
-                </article>
+                  <article class="office-card">
+                      <div class="office-header">
+                          <h3>Blantyre Office</h3>
+                          <p>Victoria Avenue</p>
+                      </div>
+                      <div class="office-body">
+                          <div class="office-info">📍 <span>Victoria Avenue, Blantyre</span></div>
+                          <div class="office-info">📞 <span>+265 1 987 654</span></div>
+                          <div class="office-info">✉️ <span>blantyre@onebalance.mw</span></div>
+                      </div>
+                  </article>
+              </div>
             </div>
         </section>
 
         <!-- FAQ Section -->
-        <section class="faq-section" aria-labelledby="faq-title">
-            <h2 id="faq-title">Frequently Asked Questions</h2>
-
-            <div class="accordion" id="contactFAQ">
-                <!-- FAQ Item 1 -->
-                <article class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button" type="button" data-target="faq1" aria-expanded="true" aria-controls="faq1">
-                            How do I reset my transaction PIN?
-                        </button>
-                    </h3>
-                    <div id="faq1" class="accordion-collapse show" data-parent="contactFAQ">
+        <section class="faq-section">
+            <div class="container">
+              <h2>Frequently Asked Questions</h2>
+              <div class="accordion" id="contactFAQ">
+                  <article class="accordion-item">
+                      <button class="accordion-button" data-target="faq1" aria-expanded="false">How do I reset my transaction PIN? <span>+</span></button>
+                      <div id="faq1" class="accordion-collapse">
                         <div class="accordion-body">
                             Go to Profile → Security → Reset PIN. You'll receive an OTP on your registered phone number.
-                            Enter the OTP and set a new 4-digit PIN. If you don't have access to your phone,
-                            contact support with your ID for verification.
                         </div>
-                    </div>
-                </article>
-
-                <!-- FAQ Item 2 -->
-                <article class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-target="faq2" aria-expanded="false" aria-controls="faq2">
-                            What documents do I need to become a merchant?
-                        </button>
-                    </h3>
-                    <div id="faq2" class="accordion-collapse" data-parent="contactFAQ">
+                      </div>
+                  </article>
+                  <article class="accordion-item">
+                      <button class="accordion-button" data-target="faq2" aria-expanded="false">What documents do I need for a merchant account? <span>+</span></button>
+                      <div id="faq2" class="accordion-collapse">
                         <div class="accordion-body">
-                            Required documents: Business registration certificate, TPIN from MRA,
-                            National ID of business owner/partners, proof of business address,
-                            and business bank statement (if applicable).
-                            <a href="merchant-portal.html">Visit Merchant Portal</a> for complete details.
+                            Required documents: Business registration certificate, TPIN from MRA, and National ID.
                         </div>
-                    </div>
-                </article>
-
-                <!-- FAQ Item 3 -->
-                <article class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-target="faq3" aria-expanded="false" aria-controls="faq3">
-                            How long does withdrawal to Airtel/TNM take?
-                        </button>
-                    </h3>
-                    <div id="faq3" class="accordion-collapse" data-parent="contactFAQ">
-                        <div class="accordion-body">
-                            Withdrawals are typically instant. In rare cases of network issues,
-                            it may take up to 5 minutes. If withdrawal takes longer than 10 minutes,
-                            contact support with your transaction reference for investigation.
-                        </div>
-                    </div>
-                </article>
-
-                <!-- FAQ Item 4 -->
-                <article class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-target="faq4" aria-expanded="false" aria-controls="faq4">
-                            Is there a fee for sending money?
-                        </button>
-                    </h3>
-                    <div id="faq4" class="accordion-collapse" data-parent="contactFAQ">
-                        <div class="accordion-body">
-                            Sending to other OneBalance users is free. Sending to Airtel Money or TNM Mpamba
-                            has a 1% fee (capped by RBM regulations). There are no fees for receiving money.
-                        </div>
-                    </div>
-                </article>
-
-                <!-- FAQ Item 5 -->
-                <article class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-target="faq5" aria-expanded="false" aria-controls="faq5">
-                            How do I report a suspicious transaction?
-                        </button>
-                    </h3>
-                    <div id="faq5" class="accordion-collapse" data-parent="contactFAQ">
-                        <div class="accordion-body">
-                            Immediately contact our compliance team at
-                            <a href="mailto:compliance@onebalance.mw">compliance@onebalance.mw</a> or call +265 1 234 569.
-                            Provide transaction details and any evidence. Our AML team will investigate
-                            and take appropriate action within 24 hours.
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <div class="faq-actions">
-                <p>Can't find your answer here?</p>
-                <a href="userguide.html" class="btn btn-primary">Visit Complete User Guide</a>
+                      </div>
+                  </article>
+              </div>
             </div>
         </section>
 
         <!-- Emergency Contact -->
-        <section class="emergency-contact" aria-labelledby="emergency-title">
-            <div class="alert">
-                <div class="emergency-content">
-                    <div class="emergency-icon" aria-hidden="true">🚨</div>
-                    <div class="emergency-info">
-                        <h4 id="emergency-title">Emergency Contact</h4>
-                        <p>For urgent security issues, account compromise, or fraudulent activity, contact our 24/7 security team immediately:</p>
-                        <div class="emergency-actions">
-                            <a href="tel:+265991112233" class="btn btn-danger">🚨 Emergency Hotline: +265 99 111 2233</a>
-                            <a href="mailto:security@onebalance.mw" class="btn btn-outline-danger">✉️ Security Email</a>
-                        </div>
-                    </div>
-                </div>
+        <section class="emergency-contact">
+            <div class="container">
+              <div class="emergency-content">
+                  <div class="emergency-icon">🚨</div>
+                  <div class="emergency-info">
+                      <h4>Emergency Contact</h4>
+                      <p>For urgent security issues or account compromise, contact us immediately: <strong>+265 99 111 2233</strong></p>
+                  </div>
+              </div>
             </div>
         </section>
     </main>
@@ -531,54 +318,103 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer" role="contentinfo">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>Contact Information</h4>
-                    <div class="contact-info">
-                        <p><strong>General Inquiries:</strong> <a href="mailto:info@onebalance.mw">info@onebalance.mw</a></p>
-                        <p><strong>Customer Support:</strong> <a href="tel:+2651234567">+265 1 234 567</a><br><a href="mailto:support@onebalance.mw">support@onebalance.mw</a></p>
-                        <p><strong>Emergency (24/7):</strong> <a href="tel:+265991112233">+265 99 111 2233</a></p>
-                    </div>
-                </div>
-                
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="Aboutus.html">About Us</a></li>
-                        <li><a href="contactus.html">Contact Us</a></li>
-                        <li><a href="index.html">Home</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h4>Legal</h4>
-                    <ul class="footer-links">
-                        <li><a href="terms-of-service.html">Terms of Service</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="rmb-compliance.html">RBM Compliance</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h4>Follow Us</h4>
-                    <div class="footer-social">
-                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Column 1 -->
+          <div class="footer-col">
+            <a href="#" class="footer-logo">
+              <span class="logo-icon">💸</span>
+              <span class="logo-text"
+                >One<span class="logo-highlight">Balance</span></span
+              >
+            </a>
+            <p class="footer-tagline">One Wallet. Every Network. All Malawi.</p>
+
+            <div class="footer-social">
+              <a href="#" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
             </div>
-            
-            <div class="footer-bottom">
-                <div class="copyright">
-                    <p>&copy; 2024 OneBalance Digital Solutions Ltd. All rights reserved.</p>
-                </div>
-            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="footer-col">
+            <h4>For Users</h4>
+            <ul class="footer-links">
+              <li><a href="index.html#how-it-works">How It Works</a></li>
+              <li><a href="index.html#download">Download App</a></li>
+              <li><a href="index.html#security">Safety & Security</a></li>
+              <li><a href="index.html#faq">Help Center</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="footer-col">
+            <h4>For Businesses</h4>
+            <ul class="footer-links">
+              <li><a href="index.html#for-merchants">Partner With Us</a></li>
+              <li><a href="index.html#merchant-form">Register Business</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul class="footer-links">
+              <li><a href="Aboutus.html">About Us</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 5 -->
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul class="footer-links">
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">RBM Compliance</a></li>
+            </ul>
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <p>
+              <i class="fas fa-university"></i>
+              Licensed by Reserve Bank of Malawi • Payment Service Provider
+              License No: PSP/2026/001
+            </p>
+            <p>
+              <i class="fas fa-shield-alt"></i>
+              All funds held in trust at National Bank of Malawi • Member funds
+              protected
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              Headquarters: Area 47, Lilongwe, Malawi • +265 1 234 567 •
+              hello@onebalance.mw
+            </p>
+          </div>
+
+          <div class="copyright">
+            <p>&copy; 2026 OneBalance Malawi. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- JavaScript -->

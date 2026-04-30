@@ -25,15 +25,15 @@
     <!-- Navigation -->
     <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="container nav-container">
-            <a href="../index.html" class="logo" aria-label="OneBalance Home">
+            <a href="index.html" class="logo" aria-label="OneBalance Home">
                 <span class="logo-icon" aria-hidden="true">💸</span>
                 <span class="logo-text">One<span class="logo-highlight">Balance</span></span>
             </a>
             <div class="nav-menu" id="nav-menu" role="navigation">
-                <a href="../index.html" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
                 <a href="Aboutus.html" class="nav-link active" aria-current="page">About Us</a>
                 <a href="contactus.html" class="nav-link">Contact Us</a>
-
+                <a href="index.html#download" class="nav-link cta-button">Download App</a>
             </div>
         </div>
     </nav>
@@ -42,47 +42,80 @@
     <main class="about-container">
         <!-- Hero Section -->
         <section class="about-hero" aria-labelledby="hero-title">
-            <h1 id="hero-title" class="display-4">Revolutionizing Digital Payments in Malawi</h1>
-            <p class="lead">We're building the future of financial inclusion, one transaction at a time
-
-            </p>
-
-            <section class="stats">
-                <div class="container stats-container">
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="50000+">0</div>
-                        <div class="stat-label">Active Users</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="3200">0</div>
-                        <div class="stat-label">Merchant Partners</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="1250">0</div>
-                        <div class="stat-label">Million MWK Processed</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="2">0</div>
-                        <div class="stat-label">Networks Supported</div>
+            <div class="hero-blobs">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+            </div>
+            
+            <div class="container about-hero-container">
+                <div class="about-hero-content">
+                    <h1 id="hero-title" class="display-4">Revolutionizing Digital Payments in Malawi</h1>
+                    <p class="lead">We're building the future of financial inclusion, one transaction at a time</p>
+                    <div class="cta-buttons">
+                        <a href="index.html#download" class="btn btn-primary">Download App</a>
+                        <a href="#story-section" class="btn btn-outline">Our Story</a>
                     </div>
                 </div>
-            </section>
+
+                <div class="about-hero-visual">
+                    <div class="mockup-stack-simple">
+                        <div class="phone-mockup mockup-about-1">
+                            <div class="phone-frame">
+                                <div class="phone-screen">
+                                    <div class="app-interface">
+                                        <div class="interface-header">
+                                            <span class="wallet-icon">🇲🇼</span>
+                                            <h3>OneBalance</h3>
+                                        </div>
+                                        <div class="balance-card-mini">
+                                            <div class="balance-label">INTEROPERABLE</div>
+                                            <div class="balance-amount">MWK 115,250</div>
+                                            <div class="network-dots">
+                                                <span class="dot airtel"></span>
+                                                <span class="dot tnm"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container stats-container">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="50000">0</div>
+                    <div class="stat-label">Active Users</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="3200">0</div>
+                    <div class="stat-label">Merchant Partners</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="1250">0</div>
+                    <div class="stat-label">Million MWK Processed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="2">0</div>
+                    <div class="stat-label">Networks Supported</div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Our Story -->
     <section class="story-section" aria-labelledby="story-title">
+      <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h2 id="story-title">Our Story</h2>
-                <p class="lead">Founded in 2024, OneBalance was born from a simple observation: Malawians were
-                    tired of switching SIM cards just to send money.</p>
-                <p>We witnessed daily struggles with mobile money interoperability — people carrying multiple
-                    phones, missing payments, and paying unnecessary fees because Airtel Money couldn't easily
-                    talk to TNM Mpamba.</p>
-                <p>We asked: What if there was one app that worked with ALL networks? One balance for everything
-                    — sending money, ordering food, booking rides, buying tickets?</p>
-                <p>Today, OneBalance is Malawi's first truly interoperable super-app, licensed by the Reserve
-                    Bank of Malawi and trusted by thousands.</p>
+                <p class="lead">Founded in 2024, OneBalance was born from a simple observation: Malawians were tired of switching SIM cards just to send money.</p>
+                <p>We witnessed daily struggles with mobile money interoperability — people carrying multiple phones, missing payments, and paying unnecessary fees because Airtel Money couldn't easily talk to TNM Mpamba.</p>
+                <p>We asked: What if there was one app that worked with ALL networks? One balance for everything — sending money, ordering food, booking rides, buying tickets?</p>
+                <p>Today, OneBalance is Malawi's first truly interoperable super-app, licensed by the Reserve Bank of Malawi and trusted by thousands.</p>
             </div>
 
             <div class="col-md-6">
@@ -95,380 +128,353 @@
                 </figure>
             </div>
         </div>
+      </div>
     </section>
 
     <!-- Mission & Vision -->
     <section class="mission-vision-section" aria-labelledby="mission-vision-title">
-        <h2 id="mission-vision-title" class="sr-only">Mission & Vision</h2>
-        <div class="mission-vision-grid">
-            <article class="mission-card">
-                <div class="value-icon">🎯</div>
-                <h3>Our Mission</h3>
-                <p>To break down financial barriers in Malawi by creating an inclusive digital ecosystem that
-                    works for everyone, regardless of their mobile network.</p>
-                <div class="values-list">
-                    <p><strong>We believe in:</strong></p>
-                    <ul>
-                        <li>Financial inclusion for all Malawians</li>
-                        <li>Technology that solves real problems</li>
-                        <li>Building trust through transparency</li>
-                        <li>Driving economic growth through innovation</li>
-                    </ul>
-                </div>
-            </article>
+        <div class="container">
+          <h2 id="mission-vision-title" class="sr-only">Mission & Vision</h2>
+          <div class="mission-vision-grid">
+              <article class="mission-card">
+                  <div class="value-icon">🎯</div>
+                  <h3>Our Mission</h3>
+                  <p>To break down financial barriers in Malawi by creating an inclusive digital ecosystem that works for everyone, regardless of their mobile network.</p>
+                  <div class="values-list">
+                      <p><strong>We believe in:</strong></p>
+                      <ul>
+                          <li>Financial inclusion for all Malawians</li>
+                          <li>Technology that solves real problems</li>
+                          <li>Building trust through transparency</li>
+                          <li>Driving economic growth through innovation</li>
+                      </ul>
+                  </div>
+              </article>
 
-            <article class="vision-card">
-                <div class="value-icon">🔭</div>
-                <h3>Our Vision</h3>
-                <p>To become Malawi's preferred digital lifestyle platform, where every transaction happens
-                    seamlessly in one place.</p>
-                <div class="values-list">
-                    <p><strong>By 2030, we aim to:</strong></p>
-                    <ul>
-                        <li>Serve 1 million active users</li>
-                        <li>Partner with 10,000+ merchants</li>
-                        <li>Process MWK 1 billion daily</li>
-                        <li>Expand to all major cities in Malawi</li>
-                    </ul>
-                </div>
-            </article>
+              <article class="vision-card">
+                  <div class="value-icon">🔭</div>
+                  <h3>Our Vision</h3>
+                  <p>To become Malawi's preferred digital lifestyle platform, where every transaction happens seamlessly in one place.</p>
+                  <div class="values-list">
+                      <p><strong>By 2030, we aim to:</strong></p>
+                      <ul>
+                          <li>Serve 1 million active users</li>
+                          <li>Partner with 10,000+ merchants</li>
+                          <li>Process MWK 1 billion daily</li>
+                          <li>Expand to all major cities in Malawi</li>
+                      </ul>
+                  </div>
+              </article>
+          </div>
         </div>
     </section>
 
     <!-- Core Values -->
     <section class="values-section" aria-labelledby="values-title">
-        <h2 id="values-title">Our Core Values</h2>
-        <div class="values-grid">
-            <div class="value-card">
-                <div class="value-icon">🤝</div>
-                <h4>Trust & Security</h4>
-                <p>RBM licensed, bank-grade security, and transparent operations. Your money is safe with us.
-                </p>
-            </div>
-            <div class="value-card">
-                <div class="value-icon">💡</div>
-                <h4>Innovation</h4>
-                <p>We're constantly improving, building solutions that solve real Malawian challenges.</p>
-            </div>
-            <div class="value-card">
-                <div class="value-icon">👥</div>
-                <h4>Inclusion</h4>
-                <p>Everyone deserves access to digital services, regardless of network or location.</p>
-            </div>
-            <div class="value-card">
-                <div class="value-icon">🚀</div>
-                <h4>Excellence</h4>
-                <p>We strive for the best in everything we do, from customer service to technology.</p>
-            </div>
+        <div class="container">
+          <h2 id="values-title">Our Core Values</h2>
+          <div class="values-grid">
+              <div class="value-card">
+                  <div class="value-icon">🤝</div>
+                  <h4>Trust & Security</h4>
+                  <p>RBM licensed, bank-grade security, and transparent operations. Your money is safe with us.</p>
+              </div>
+              <div class="value-card">
+                  <div class="value-icon">💡</div>
+                  <h4>Innovation</h4>
+                  <p>We're constantly improving, building solutions that solve real Malawian challenges.</p>
+              </div>
+              <div class="value-card">
+                  <div class="value-icon">👥</div>
+                  <h4>Inclusion</h4>
+                  <p>Everyone deserves access to digital services, regardless of network or location.</p>
+              </div>
+              <div class="value-card">
+                  <div class="value-icon">🚀</div>
+                  <h4>Excellence</h4>
+                  <p>We strive for the best in everything we do, from customer service to technology.</p>
+              </div>
+          </div>
         </div>
     </section>
 
-    <!-- Leadership Team --> <!-- Here is our Team -->
+    <!-- Leadership Team -->
     <section class="team-section" aria-labelledby="team-title">
-        <h2 id="team-title">Meet Our Leadership Team</h2>
-        <p class="team-subtitle">Our team combines deep fintech expertise with local market knowledge.</p>
+        <div class="container">
+          <h2 id="team-title">Meet Our Leadership Team</h2>
+          <p class="team-subtitle">Our team combines deep fintech expertise with local market knowledge.</p>
 
-        <div class="team-grid">
-            <article class="team-card">
-                <div class="team-photo" aria-hidden="true">W</div>
-                <div class="team-info">
-                    <h4>Wongani Nkosi</h4>
-                    <p class="title">Co-Founder & CEO</p>
-                    <p>A NACIT student with A Honors Degree in Computing, 6yrs plus of experience in Web development. 
-                        A full-stack developer and also a Software Engineer.
-                    </p>
-                    <div class="team-social" aria-label="Chikondi's social links">
-                        <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
-                        <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
-                        <a href="#" class="social-icon" aria-label="Website">💼</a>
-                    </div>
-                </div>
-            </article>
+          <div class="team-grid">
+              <article class="team-card">
+                  <div class="team-photo" aria-hidden="true">W</div>
+                  <div class="team-info">
+                      <h4>Wongani Nkosi</h4>
+                      <p class="title">Co-Founder & CEO</p>
+                      <p>A NACIT student with A Honors Degree in Computing, 6yrs plus of experience in Web development. A full-stack developer and Software Engineer.</p>
+                      <div class="team-social">
+                          <a href="#" class="social-icon">LinkedIn</a>
+                          <a href="#" class="social-icon">Twitter</a>
+                      </div>
+                  </div>
+              </article>
 
-            <article class="team-card">
-                <div class="team-photo" aria-hidden="true">T</div>
-                <div class="team-info">
-                    <h4>Tawonga Moyo</h4>
-                    <p class="title">Co-Founder & CTO</p>
-                    <p>Ex-Google engineer specializing in payment systems. Built the first version in 3 months.
-                    </p>
-                    <div class="team-social" aria-label="Tawonga's social links">
-                        <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
-                        <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
-                        <a href="#" class="social-icon" aria-label="GitHub">👨‍💻</a>
-                    </div>
-                </div>
-            </article>
+              <article class="team-card">
+                  <div class="team-photo" aria-hidden="true">T</div>
+                  <div class="team-info">
+                      <h4>Tawonga Moyo</h4>
+                      <p class="title">Co-Founder & CTO</p>
+                      <p>Ex-Google engineer specializing in payment systems. Built the first version of OneBalance in 3 months.</p>
+                      <div class="team-social">
+                          <a href="#" class="social-icon">LinkedIn</a>
+                          <a href="#" class="social-icon">GitHub</a>
+                      </div>
+                  </div>
+              </article>
 
-            <article class="team-card">
-                <div class="team-photo" aria-hidden="true">M</div>
-                <div class="team-info">
-                    <h4>Mary Phiri</h4>
-                    <p class="title">Head of Compliance</p>
-                    <p>Former RBM regulator with 10+ years in financial regulation. Ensures 100% RBM compliance.
-                    </p>
-                    <div class="team-social" aria-label="Mary's social links">
-                        <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
-                        <a href="#" class="social-icon" aria-label="Twitter">⚖️</a>
-                        <a href="#" class="social-icon" aria-label="Email">📚</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="team-card">
-                <div class="team-photo" aria-hidden="true">M</div>
-                <div class="team-info">
-                    <h4>Mary Phiri</h4>
-                    <p class="title">Head of Compliance</p>
-                    <p>Former RBM regulator with 10+ years in financial regulation. Ensures 100% RBM compliance.
-                    </p>
-                    <div class="team-social" aria-label="Mary's social links">
-                        <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
-                        <a href="#" class="social-icon" aria-label="Twitter">⚖️</a>
-                        <a href="#" class="social-icon" aria-label="Email">📚</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="team-card">
-                <div class="team-photo" aria-hidden="true">M</div>
-                <div class="team-info">
-                    <h4>Mary Phiri</h4>
-                    <p class="title">Head of Compliance</p>
-                    <p>Former RBM regulator with 10+ years in financial regulation. Ensures 100% RBM compliance.
-                    </p>
-                    <div class="team-social" aria-label="Mary's social links">
-                        <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
-                        <a href="#" class="social-icon" aria-label="Twitter">⚖️</a>
-                        <a href="#" class="social-icon" aria-label="Email">📚</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="team-card">
-                <div class="team-photo" aria-hidden="true">M</div>
-                <div class="team-info">
-                    <h4>Mary Phiri</h4>
-                    <p class="title">Head of Compliance</p>
-                    <p>Former RBM regulator with 10+ years in financial regulation. Ensures 100% RBM compliance.
-                    </p>
-                    <div class="team-social" aria-label="Mary's social links">
-                        <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
-                        <a href="#" class="social-icon" aria-label="Twitter">⚖️</a>
-                        <a href="#" class="social-icon" aria-label="Email">📚</a>
-                    </div>
-                </div>
-            </article>
+              <article class="team-card">
+                  <div class="team-photo" aria-hidden="true">M</div>
+                  <div class="team-info">
+                      <h4>Mary Phiri</h4>
+                      <p class="title">Head of Compliance</p>
+                      <p>Former RBM regulator with 10+ years in financial regulation. Ensures 100% RBM compliance.</p>
+                      <div class="team-social">
+                          <a href="#" class="social-icon">LinkedIn</a>
+                          <a href="#" class="social-icon">Email</a>
+                      </div>
+                  </div>
+              </article>
+          </div>
         </div>
     </section>
 
     <!-- Timeline -->
     <section class="timeline-section" aria-labelledby="timeline-title">
-        <h2 id="timeline-title">Our Journey</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot" aria-hidden="true"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">January 2024</div>
-                    <h4>Idea Born</h4>
-                    <p>Concept developed after observing network interoperability challenges in Lilongwe
-                        markets.</p>
-                </div>
-            </div>
+        <div class="container">
+          <h2 id="timeline-title">Our Journey</h2>
+          <div class="timeline">
+              <div class="timeline-item">
+                  <div class="timeline-dot" aria-hidden="true"></div>
+                  <div class="timeline-content">
+                      <div class="timeline-date">January 2024</div>
+                      <h4>Idea Born</h4>
+                      <p>Concept developed after observing network interoperability challenges in Lilongwe markets.</p>
+                  </div>
+              </div>
 
-            <div class="timeline-item">
-                <div class="timeline-dot" aria-hidden="true"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">March 2024</div>
-                    <h4>Company Registered</h4>
-                    <p>OneBalance Digital Solutions Ltd officially registered with Registrar General.</p>
-                </div>
-            </div>
+              <div class="timeline-item">
+                  <div class="timeline-dot" aria-hidden="true"></div>
+                  <div class="timeline-content">
+                      <div class="timeline-date">March 2024</div>
+                      <h4>Company Registered</h4>
+                      <p>OneBalance Digital Solutions Ltd officially registered with Registrar General.</p>
+                  </div>
+              </div>
 
-            <div class="timeline-item">
-                <div class="timeline-dot" aria-hidden="true"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">June 2024</div>
-                    <h4>RBM Sandbox Entry</h4>
-                    <p>Accepted into Reserve Bank of Malawi's Regulatory Sandbox for testing.</p>
-                </div>
-            </div>
+              <div class="timeline-item">
+                  <div class="timeline-dot" aria-hidden="true"></div>
+                  <div class="timeline-content">
+                      <div class="timeline-date">June 2024</div>
+                      <h4>RBM Sandbox Entry</h4>
+                      <p>Accepted into Reserve Bank of Malawi's Regulatory Sandbox for testing.</p>
+                  </div>
+              </div>
 
-            <div class="timeline-item">
-                <div class="timeline-dot" aria-hidden="true"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">September 2024</div>
-                    <h4>Beta Launch</h4>
-                    <p>First 1,000 users onboarded in Lilongwe. Processed MWK 5 million in first month.</p>
-                </div>
-            </div>
+              <div class="timeline-item">
+                  <div class="timeline-dot" aria-hidden="true"></div>
+                  <div class="timeline-content">
+                      <div class="timeline-date">September 2024</div>
+                      <h4>Beta Launch</h4>
+                      <p>First 1,000 users onboarded in Lilongwe. Processed MWK 5 million in first month.</p>
+                  </div>
+              </div>
 
-            <div class="timeline-item">
-                <div class="timeline-dot" aria-hidden="true"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">December 2024</div>
-                    <h4>RBM License Approved</h4>
-                    <p>Received full Payment Service Provider license from Reserve Bank of Malawi.</p>
-                </div>
-            </div>
+              <div class="timeline-item">
+                  <div class="timeline-dot" aria-hidden="true"></div>
+                  <div class="timeline-content">
+                      <div class="timeline-date">December 2024</div>
+                      <h4>RBM License Approved</h4>
+                      <p>Received full Payment Service Provider license from Reserve Bank of Malawi.</p>
+                  </div>
+              </div>
 
-            <div class="timeline-item">
-                <div class="timeline-dot" aria-hidden="true"></div>
-                <div class="timeline-content">
-                    <div class="timeline-date">Today</div>
-                    <h4>Growing Strong</h4>
-                    <p>Serving 50,000+ users, 1,200+ merchants, processing MWK 250+ million monthly.</p>
-                </div>
-            </div>
+              <div class="timeline-item">
+                  <div class="timeline-dot" aria-hidden="true"></div>
+                  <div class="timeline-content">
+                      <div class="timeline-date">Today</div>
+                      <h4>Growing Strong</h4>
+                      <p>Serving 50,000+ users, 1,200+ merchants, processing MWK 250+ million monthly.</p>
+                  </div>
+              </div>
+          </div>
         </div>
     </section>
 
     <!-- Offices -->
     <section class="office-section" aria-labelledby="offices-title">
-        <h2 id="offices-title">Our Offices</h2>
-        <div class="office-grid">
-            <article class="office-card">
-                <div class="office-map" aria-hidden="true">📍</div>
-                <div class="office-info">
-                    <h4>Headquarters - Lilongwe</h4>
-                    <p class="location">Area 47, City Center</p>
-                    <p><strong>Address:</strong><br />OneBalance House, Area 47<br />Lilongwe, Malawi</p>
-                    <p><strong>Phone:</strong> +265 1 234 567</p>
-                    <p><strong>Email:</strong> lilongwe@onebalance.mw</p>
-                    <p><strong>Hours:</strong> Mon-Fri, 8AM-5PM</p>
-                </div>
-            </article>
+        <div class="container">
+          <h2 id="offices-title">Our Offices</h2>
+          <div class="office-grid">
+              <article class="office-card">
+                  <div class="office-map" aria-hidden="true">📍</div>
+                  <div class="office-info">
+                      <h4>Headquarters - Lilongwe</h4>
+                      <p class="location">Area 47, City Center</p>
+                      <p><strong>Address:</strong> OneBalance House, Area 47, Lilongwe, Malawi</p>
+                      <p><strong>Phone:</strong> +265 1 234 567</p>
+                      <p><strong>Email:</strong> lilongwe@onebalance.mw</p>
+                      <p><strong>Hours:</strong> Mon-Fri, 8AM-5PM</p>
+                  </div>
+              </article>
 
-            <article class="office-card">
-                <div class="office-map" aria-hidden="true">📍</div>
-                <div class="office-info">
-                    <h4>Blantyre Office</h4>
-                    <p class="location">Victoria Avenue</p>
-                    <p><strong>Address:</strong><br />Victoria Avenue, Plot 123<br />Blantyre, Malawi</p>
-                    <p><strong>Phone:</strong> +265 1 987 654</p>
-                    <p><strong>Email:</strong> blantyre@onebalance.mw</p>
-                    <p><strong>Hours:</strong> Mon-Fri, 8AM-5PM</p>
-                </div>
-            </article>
+              <article class="office-card">
+                  <div class="office-map" aria-hidden="true">📍</div>
+                  <div class="office-info">
+                      <h4>Blantyre Office</h4>
+                      <p class="location">Victoria Avenue</p>
+                      <p><strong>Address:</strong> Victoria Avenue, Plot 123, Blantyre, Malawi</p>
+                      <p><strong>Phone:</strong> +265 1 987 654</p>
+                      <p><strong>Email:</strong> blantyre@onebalance.mw</p>
+                      <p><strong>Hours:</strong> Mon-Fri, 8AM-5PM</p>
+                  </div>
+              </article>
 
-            <article class="office-card coming-soon">
-                <div class="office-map" aria-hidden="true">🚧</div>
-                <div class="office-info">
-                    <h4>Mzuzu Office</h4>
-                    <p class="location text-warning">Coming Soon - Late 2024</p>
-                    <p>We're expanding to Mzuzu! Our new office will open in late 2024 to better serve our
-                        Northern Region customers and merchants.</p>
-                    <span class="badge badge-warning">Coming Soon</span>
-                </div>
-            </article>
+              <article class="office-card coming-soon">
+                  <div class="office-map" aria-hidden="true">🚧</div>
+                  <div class="office-info">
+                      <h4>Mzuzu Office</h4>
+                      <p class="location text-warning">Coming Soon - Late 2024</p>
+                      <p>We're expanding to Mzuzu! Our new office will open in late 2024 to better serve our Northern Region customers.</p>
+                      <span class="badge badge-warning">Coming Soon</span>
+                  </div>
+              </article>
+          </div>
         </div>
     </section>
 
     <!-- Press & Recognition -->
     <section class="press-section" aria-labelledby="press-title">
-        <h2 id="press-title">Press & Recognition</h2>
-        <p>We're proud to be recognized as innovators in Malawi's fintech space.</p>
-
-        <div class="press-logos" aria-label="Media logos">
-            <span class="press-logo">📰 Times Malawi</span>
-            <span class="press-logo">🇲🇼 The Nation</span>
-            <span class="press-logo">📻 MIJ</span>
-            <span class="press-logo">📺 MBC</span>
-            <span class="press-logo">🏆 Fintech Awards</span>
-        </div>
-
-        <div class="press-highlights">
-            <article class="press-card">
-                <h5>Featured in Times Malawi</h5>
-                <p>"OneBalance bridges the Airtel-TNM divide, creating new possibilities for digital payments in
-                    Malawi."</p>
-                <a href="#" class="btn">Read Article</a>
-            </article>
-            <article class="press-card">
-                <h5>Fintech Innovation Award 2024</h5>
-                <p>Winner of Best New Fintech Solution at Malawi Digital Innovation Awards.</p>
-                <a href="#" class="btn">View Award</a>
-            </article>
+        <div class="container">
+          <h2 id="press-title">Press & Recognition</h2>
+          <div class="press-logos">
+              <span class="press-logo">Times Malawi</span>
+              <span class="press-logo">The Nation</span>
+              <span class="press-logo">MIJ Radio</span>
+              <span class="press-logo">MBC TV</span>
+          </div>
         </div>
     </section>
 
     <!-- CTA Section -->
     <section class="cta-section" aria-labelledby="cta-title">
-        <h2 id="cta-title">Join Us in Building Malawi's Digital Future</h2>
-        <p>Whether you're a user, merchant, investor, or future team member, there's a place for you in our
-            journey.</p>
-        <div class="cta-buttons">
-            <a href="../index.html#download" class="btn btn-primary">Download App</a>
-            <a href="contactus.html" class="btn btn-outline">Contact Us</a>
-            <a href="businessresources.html" class="btn btn-outline">View resources</a>
+        <div class="container">
+          <h2 id="cta-title">Join Us in Building Malawi's Digital Future</h2>
+          <p>Whether you're a user, merchant, investor, or future team member, there's a place for you.</p>
+          <div class="cta-buttons">
+              <a href="index.html#download" class="btn btn-primary">Download App</a>
+              <a href="contactus.html" class="btn btn-outline">Contact Us</a>
+          </div>
         </div>
     </section>
 
 
     <!-- Footer -->
-    <footer class="footer" role="contentinfo">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>About OneBalance</h4>
-                    <ul class="footer-links">
-                        <li><a href="#story-section">Our Story</a></li>
-                        <li><a href="#team">Leadership Team</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Legal & Compliance</h4>
-                    <ul class="footer-links">
-                        <li><a href="terms-of-service.html">Terms of Service</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Business</h4>
-                    <ul class="footer-links">
-                        <li><a href="contactus.html">contact us</a></li>
-                        <li><a href="index.html">Home page</a></li>
-                        <li><a href="api-documentation.html">API Documentation</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Connect</h4>
-                    <div class="footer-social">
-                        <a href="#" class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Column 1 -->
+          <div class="footer-col">
+            <a href="#" class="footer-logo">
+              <span class="logo-icon">💸</span>
+              <span class="logo-text"
+                >One<span class="logo-highlight">Balance</span></span
+              >
+            </a>
+            <p class="footer-tagline">One Wallet. Every Network. All Malawi.</p>
 
-                </div>
+            <div class="footer-social">
+              <a href="#" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
             </div>
+          </div>
 
-            <div class="footer-bottom">
-                <div class="footer-legal">
-                    <p><i class="fas fa-university"></i> Licensed by Reserve Bank of Malawi • Payment Service Provider
-                        License No: PSP/2024/001</p>
-                    <p><i class="fas fa-shield-alt"></i> All funds held in trust at National Bank of Malawi • Member
-                        funds protected</p>
-                </div>
-                <div class="copyright">
-                    <p>&copy; 2024 OneBalance Digital Solutions Ltd. All rights reserved.</p>
-                    <p class="footer-note">OneBalance is a trademark of OneBalance Digital Solutions Ltd. Airtel and
-                        Airtel Money are trademarks of Airtel Malawi. TNM and Mpamba are trademarks of Telekom Networks
-                        Malawi.</p>
-                </div>
-            </div>
+          <!-- Column 2 -->
+          <div class="footer-col">
+            <h4>For Users</h4>
+            <ul class="footer-links">
+              <li><a href="index.html#how-it-works">How It Works</a></li>
+              <li><a href="index.html#download">Download App</a></li>
+              <li><a href="index.html#security">Safety & Security</a></li>
+              <li><a href="index.html#faq">Help Center</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="footer-col">
+            <h4>For Businesses</h4>
+            <ul class="footer-links">
+              <li><a href="index.html#for-merchants">Partner With Us</a></li>
+              <li><a href="index.html#merchant-form">Register Business</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul class="footer-links">
+              <li><a href="Aboutus.html">About Us</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 5 -->
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul class="footer-links">
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">RBM Compliance</a></li>
+            </ul>
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <p>
+              <i class="fas fa-university"></i>
+              Licensed by Reserve Bank of Malawi • Payment Service Provider
+              License No: PSP/2026/001
+            </p>
+            <p>
+              <i class="fas fa-shield-alt"></i>
+              All funds held in trust at National Bank of Malawi • Member funds
+              protected
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              Headquarters: Area 47, Lilongwe, Malawi • +265 1 234 567 •
+              hello@onebalance.mw
+            </p>
+          </div>
+
+          <div class="copyright">
+            <p>&copy; 2026 OneBalance Malawi. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="../js/script.js" defer></script>

@@ -1035,8 +1035,14 @@ document.body.appendChild(backToTopButton);
 window.addEventListener('scroll', function () {
     if (window.pageYOffset > 300) {
         backToTopButton.style.display = 'flex';
+        setTimeout(() => backToTopButton.classList.add('show'), 10);
     } else {
-        backToTopButton.style.display = 'none';
+        backToTopButton.classList.remove('show');
+        setTimeout(() => {
+            if (!backToTopButton.classList.contains('show')) {
+                backToTopButton.style.display = 'none';
+            }
+        }, 300);
     }
 });
 
