@@ -628,56 +628,24 @@ function formatMalawiPhone(phone) {
     printButton.innerHTML = '<i class="fas fa-print"></i>';
     printButton.className = 'print-button';
     printButton.title = 'Print this page';
-    printButton.style.cssText = `
-        position: fixed;
-        bottom: 100px;
-        right: 30px;
-        width: 50px;
-        height: 50px;
-        background: var(--primary);
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-        box-shadow: var(--shadow-md);
-        z-index: 999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 20px;
-    `;
 
     printButton.addEventListener('click', function () {
         window.print();
     });
 
-    document.body.appendChild(printButton);
-
-    
     // 17. THEME TOGGLE (LIGHT/DARK)
     
     const themeToggle = document.createElement('button');
     themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
     themeToggle.className = 'theme-toggle';
     themeToggle.title = 'Toggle dark mode';
-    themeToggle.style.cssText = `
-        position: fixed;
-        bottom: 160px;
-        right: 30px;
-        width: 50px;
-        height: 50px;
-        background: var(--dark);
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-        box-shadow: var(--shadow-md);
-        z-index: 999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 20px;
-    `;
+
+    // Add buttons to floating actions container
+    const floatingActions = document.querySelector('.floating-actions');
+    if (floatingActions) {
+        floatingActions.appendChild(themeToggle);
+        floatingActions.appendChild(printButton);
+    }
 
     // Check for saved theme
     const savedTheme = localStorage.getItem('theme') || 'light';
@@ -999,52 +967,24 @@ if ('serviceWorker' in navigator) {
 
 
 // 25. BACK TO TOP BUTTON
-const backToTopButton = document.createElement('button');
-backToTopButton.innerHTML = '<i class="fas fa-chevron-up"></i>';
-backToTopButton.className = 'back-to-top';
-backToTopButton.title = 'Back to top';
-backToTopButton.style.cssText = `
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background: var(--primary);
-    color: black;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: var(--shadow-md);
-    z-index: 999;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    transition: all 0.3s ease;
-`;
+const backToTopButton = document.getElementById('backToTop');
 
-backToTopButton.addEventListener('click', function () {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
+if (backToTopButton) {
+    backToTopButton.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     });
-});
 
-document.body.appendChild(backToTopButton);
-
-window.addEventListener('scroll', function () {
-    if (window.pageYOffset > 300) {
-        backToTopButton.style.display = 'flex';
-        setTimeout(() => backToTopButton.classList.add('show'), 10);
-    } else {
-        backToTopButton.classList.remove('show');
-        setTimeout(() => {
-            if (!backToTopButton.classList.contains('show')) {
-                backToTopButton.style.display = 'none';
-            }
-        }, 300);
-    }
-});
+    window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 300) {
+            backToTopButton.classList.add('show');
+        } else {
+            backToTopButton.classList.remove('show');
+        }
+    });
+}
 
 // 26. BROWSER COMPATIBILITY CHECK
 function checkBrowserCompatibility() {

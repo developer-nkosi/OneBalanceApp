@@ -7,7 +7,28 @@ document.addEventListener('DOMContentLoaded', () => {
   initPhoneFormatting();
   initChatWidget();
   initAutoFocus();
+  initManualBackToTop();
 });
+
+function initManualBackToTop() {
+  const btn = document.getElementById('manualBackToTop');
+  if (!btn) return;
+
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 300) {
+      btn.classList.add('show');
+    } else {
+      btn.classList.remove('show');
+    }
+  });
+
+  btn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+}
 
 /**
  * Form Tab Switching with ARIA support
@@ -192,6 +213,8 @@ function initAccordion() {
       document.querySelectorAll('.accordion-collapse.show').forEach(item => {
         if (item !== target) {
           item.classList.remove('show');
+          const otherBtn = document.querySelector(`[data-target="${item.id}"]`);
+          if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
         }
       });
       

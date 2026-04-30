@@ -745,29 +745,64 @@ p {
     color: var(--accent-green);
 }
 
-/* WhatsApp Float */
-.whatsapp-float {
+/* Floating Actions */
+.floating-actions {
     position: fixed;
-    bottom: var(--spacing-xl);
-    right: var(--spacing-xl);
-    background: #25D366;
-    color: white;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    z-index: 1000;
+}
+
+.chat-button, .back-to-top-btn, .print-button, .theme-toggle {
     width: 50px;
     height: 50px;
     border-radius: var(--radius-full);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: var(--font-size-3xl);
-    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    border: none !important;
     box-shadow: var(--shadow-lg);
-    z-index: 1000;
-    transition: all var(--transition-fast);
+    text-decoration: none;
+    color: var(--white);
+    margin: 0 !important;
 }
 
-.whatsapp-float:hover {
+.chat-button {
+    background: #25D366;
+}
+
+.back-to-top-btn {
+    background: var(--dark);
+    display: none; /* Controlled by JS */
+}
+
+.back-to-top-btn.show {
+    display: flex;
+    animation: fadeIn 0.3s ease;
+}
+
+.print-button {
+    background: var(--accent-orange);
+}
+
+.theme-toggle {
+    background: var(--secondary);
+}
+
+.chat-button:hover, .back-to-top-btn:hover, .print-button:hover, .theme-toggle:hover {
     transform: scale(1.1);
     box-shadow: var(--shadow-xl);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 /* Stats Section */
